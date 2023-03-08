@@ -1,0 +1,16 @@
+@import "../scss/tools";
+
+
+.treeContainer{
+  @include flexBox(column);
+  width: 100%;
+  height: fit-content;
+  margin-top: 50px;
+
+
+  .nodesContainer{
+    @include flexBox(column);
+    width: fit-content;
+    height: 100%;
+  }
+}
